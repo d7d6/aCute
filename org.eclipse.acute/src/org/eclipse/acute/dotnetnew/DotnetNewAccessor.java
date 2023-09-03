@@ -87,7 +87,7 @@ public class DotnetNewAccessor {
 					}
 					if(DotnetVersionUtil.getMajorVersionNumber(DotnetVersionUtil.getVersion(AcutePlugin.getDotnetCommand())) >= 5)
 					{
-						if(inputLine.matches("---------------------------------  --------------------  ----------  ------------------------------------------------------------------------------------------$")) { //$NON-NLS-1$
+						if(inputLine.matches("--------------------------------------------  -------------------  ----------  -------------------------------------$")) { //$NON-NLS-1$
 							templateListExists = true;
 							break;
 						}
